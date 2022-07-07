@@ -1,14 +1,32 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Copyright 2022, Xiao Hu, Francois Lauze, Kim Steenstrup Pedersen
+%
+%   Licensed under the Apache License, Version 2.0 (the "License");
+%   you may not use this file except in compliance with the License. 
+%   You may obtain a copy of the License at
+%
+%       http://www.apache.org/licenses/LICENSE-2.0
+%
+%   Unless required by applicable law or agreed to in writing, software
+%   distributed under the License is distributed on an "AS IS" BASIS,
+%   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+%   See the License for the specific language governing permissions and
+%   limitations under the License.
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Solve Forward projection equation for Case 1 (single layer)
-% d is the distance of medium from camera
-% p is given 3D point
-% n is the normal
-% mu is refractive index (relative: so mu0/mu1)
-
-% M is the 3D point on the layer closest to camera where the first
-% refraction happens
 
 function [M] = SolveFlatRefractionPointOneLayerCase1(d,n,mu,p)
+    % Solve Forward projection equation for Case 1 (single layer)
+    % d is the distance of medium from camera
+    % p is given 3D point
+    % n is the normal
+    % mu is refractive index (relative: so mu0/mu1)
+    %
+    % M is the 3D point on the layer closest to camera where the first
+    % refraction happens
+
     M = [0;0;1];
 
     %find POR the plane of refraction
