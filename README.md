@@ -11,8 +11,12 @@ and
 > 1st Workshop on Traditional Computer Vision in the Age of Deep
 Learning (TradiCV), Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW). IEEE, p. 2569-2578, 2021.
 
-
 If you use this code in a scientific context, we appreciate if you cite either of the two publications above (which ever is appropriate for your purpose).
+
+## Dataset
+For the experiments in the two papers listed above we used the *DIKU Refractive Scenes Dataset 2022* which is available at:
+
+[http://doi.org/10.17894/ucph.5d1b9bea-b105-4d43-aefb-c53df7806c2a]( http://doi.org/10.17894/ucph.5d1b9bea-b105-4d43-aefb-c53df7806c2a)
 
 
 ## Requirements
