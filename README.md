@@ -32,10 +32,11 @@ Please following the instructions mentioned in the  [mexopencv](https://github.c
 UPnP and GPnP rely on installation of the OpenGV library.
 
 
-## Side contribution
+## Side contributions
 1. We extend Agrawal's open-source implementation to handle single refraction and double refraction with three different media. 
-2. We implement the algorithms described in the following articles. Furthermore, we accelerate them using the virtual camera transformation.
+2. We implement the algorithms described in the following articles and furthermore, we accelerate them using the virtual camera transformation.
 > Chadebecq, François, et al. "Refractive two-view reconstruction for underwater 3d vision." International Journal of Computer Vision 128.5 (2020): 1101-1117.
+
 > Chadebecq, François, et al. "Refractive structure-from-motion through a flat refractive interface." Proceedings of the ieee international conference on computer vision. 2017.
 
 ## How-to-use
