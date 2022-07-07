@@ -1,12 +1,32 @@
 # RefractiveSfM
 
-This repository contains code for refractive structure-from-motion.
-## Introduction
+This repository contains code for refractive structure-from-motion representing implementations of the methods presented in the following scientific publications:
 
-Example code for verify  the algorithms described in:
+> Xiao Hu, Francois Lauze, Kim Steenstrup Pedersen. Refractive Pose Refinement：Generalising the geometric relation between camera and refractive interface.
+> International Journal of Computer Vision (IJCV), 2022.
 
-> Absolute and Relative Pose Estimation in Refractive Multi View
-> In Submission to ICCV 2021
+and
+
+> Xiao Hu, Francois Lauze, Kim Steenstrup Pedersen, Jean Mélou. Absolute and Relative Pose Estimation in Refractive Multi View.
+> 1st Workshop on Traditional Computer Vision in the Age of Deep
+Learning (TradiCV), Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW). IEEE, p. 2569-2578, 2021.
+
+
+If you use this code in a scientific context, we appreciate if you cite either of the two publications above (which ever is appropriate for your purpose).
+
+
+## Requirements
+The code has been implemented using Matlab and should work with version R2016b and above.
+
+
+### Dependencies:
+
+Some certain functions have dependencies on [mexopencv](https://github.com/kyamagu/mexopencv) library.
+
+Please following the instructions mentioned in the  [mexopencv](https://github.com/kyamagu/mexopencv) repository for compilation and installation.
+
+UPnP and GPnP rely on installation of the OpenGV library.
+
 
 ## Side contribution
 1. We extend Agrawal's open-source implementation to handle single refraction and double refraction with three different media. 
@@ -20,13 +40,6 @@ Example code for verify  the algorithms described in:
 
 `main_relative_pose_toy_example.m` : generate synthetic data for evaluating relative pose estimation.
 
-### Dependencies:
-
-Some certain functions have dependencies on [mexopencv](https://github.com/kyamagu/mexopencv) library.
-
-Please following the instructions mentioned in the  [mexopencv](https://github.com/kyamagu/mexopencv) repository for compilation and installation.
-
-UPnP and GPnP rely on installation of the OpenGV library.
 
 ## Acknowledgements
 
@@ -40,18 +53,18 @@ In folder `thirdparty`, we include some third-party software made by:
 
 ## Copyright
 
-> This program is free software: you can redistribute it and/or modify
->  it under the terms of the version 3 of the GNU General Public License
->  as published by the Free Software Foundation.
->
->  This program is distributed in the hope that it will be useful, but
->  WITHOUT ANY WARRANTY; without even the implied warranty of
->  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
->  General Public License for more details.       
->  You should have received a copy of the GNU General Public License
->  along with this program. If not, see <http://www.gnu.org/licenses/>.
+Copyright 2022, Xiao Hu, Francois Lauze, Kim Steenstrup Pedersen
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at
 
+http://www.apache.org/licenses/LICENSE-2.0
 
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 
